@@ -1,0 +1,300 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins:wght@300;400&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.abouth1{
+  font-size: 40px;
+  text-align: center;
+}
+
+.abouth2{
+  font-size: 24px;
+  font-weight:lighter;
+ text-align: center;
+}
+
+.row.policy{
+  margin-left: 0.4%;
+  color: white;
+  background-image: url('D:\My Placement\ECommerce_Edited\ecommerce-app-2023-15-admin-orders-css\client\public\images\policy1.jpg');
+}
+
+.policy-subhead{
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.about-headings{
+  font-size: 23px;
+  font-weight:600;
+}
+
+.leftheadpadding{
+ font-family: "Comic Sans MS";
+ padding-left: 10px;
+ font-size: 27px;
+}
+
+/* font-family: 'Poppins', sans-serif; */
+/* font-family: 'Playfair Display', serif; */
+
+/* //navbar css */
+.navbar {
+  font-family: "Georgia", sans-serif;
+  font-size: 19px;
+  line-height: 26px;
+  
+  /* text-transform: capitalize; */
+  box-shadow: 0 8px 6px -6px rgb(128, 128, 128);
+  --webkit-box-shadow: 0 8px 6px -6px gray;
+  border-bottom: solid rgb(134, 52, 0) !important;
+}
+
+.nav-link {
+  font-weight: 300 !important;
+}
+
+.active {
+  border-bottom: 2px solid black;
+}
+
+.navbar-brand {
+  font-weight: 700;
+  /* font-family: "Georgia", sans-serif; */
+  font-family: "Comic Sans MS";
+  /* letter-spacing: 0px; */
+}
+
+.search-form {
+  margin-right: 10px;
+  margin-top: 4px;
+}
+
+.search-form input {
+  border: none;
+  background-color: #ffffff;
+  border-radius: 10px;
+}
+.search-form button {
+  background-color: #000000;
+  border-radius: 6px;
+  color: rgb(255, 255, 255);
+}
+
+/* =============================
+==========footer============= */
+
+.footer {
+
+  width: 100%;
+  color: rgb(255, 255, 255);
+  padding: 15px 10px 2px 0px;
+  font-size: 21px;
+  font-family: "Georgia", sans-serif;
+  background: #ffffff; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #FFD3A5,
+    #FD6585
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  /* background: linear-gradient(to right, #ffd3a5, #fd6585); */
+  background: linear-gradient(to right, #ffb15e, #ff436b);
+
+}
+
+
+.text-center-footer{
+ text-align: center;
+ font-size: 27px;
+}
+
+.text-center-footer.mt-3{
+  text-align: center;
+  font-size: 18px;
+ }
+
+.footer a {
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+}
+
+.footer a:hover {
+  color: #000000;
+  border-bottom: 3px solid #31000b;
+}
+/* =================================
+======== page not found css ======= */
+.pnf {
+  display: flex;
+  min-height: 65vh;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.pnf-title {
+  font-size: 100px;
+  font-weight: 700;
+}
+
+.pnf-heading {
+  font-weight: normal;
+}
+
+
+.pnf-btn {
+  color: black;
+  border: 1px solid black;
+  text-decoration: none;
+  padding: 10px;
+  margin-top: 10px;
+}
+.pnf-btn:hover {
+  background-color: black;
+  color: white;
+}
+/* ========================================= */
+/* =========contact us ========= */
+.contactus {
+  margin: 0;
+  /* padding-left: 30px; */
+  /* height: 70vh; */
+  display: flex;
+  /* align-items: center; */
+  justify-content: center;
+  background-image: url('D:\My Placement\ECommerce_Edited\ecommerce-app-2023-15-admin-orders-css\client\public\images\about1.jpg');
+  background-size: cover;
+}
+
+.row.contactus1{
+  background-color: #f6e7ff;
+}
+
+.privacyh1{
+  text-align: center;
+}
+
+.row {
+  /* margin-right: 0; */
+  /* padding-top: 0px; */
+  /* font-size: 100px; */
+  /* height: 70vh; */
+  /* display: flex; */
+  /* align-items: center; */
+  /* justify-content: center; */
+}
+
+/* ==================== */
+.product-link {
+  text-decoration: none !important;
+  color: black !important;
+}
+
+.login-btn-container{
+  display: flex;
+}
+
+.btn1.btn-primary{
+  border-radius: 8px;
+  width: 100px;
+  padding-left: 0px;
+  padding-top: 5px;
+  padding-right: 0px;
+  padding-bottom: 5px;
+}
+
+
+.btn1.forgot-btn{
+  margin-left: 15px;
+  border-radius: 8px;
+  width: 195px;  
+  padding-left: 0px;
+  padding-top: 5px;
+  padding-right: 0px;
+  padding-bottom: 5px;
+}
+
+.btn.loadmore{
+  margin-left: -20px;
+  border-radius: 30px;
+  width: 98%;
+  padding-top: 5px;
+}
+
+.cat-btn {
+  padding: 40px 0px;
+  font-size: 24px;
+  text-transform: uppercase;
+}
+.cat-btn:hover {
+  background-color: #434343;
+  color: white;
+}
+/* ================
+====dashboard
+=================== */
+
+.dashboard {
+  margin-top: 100px !important;
+}
+
+.dashboard-menu h4 {
+  background-color: #434343 !important;
+  color: white;
+  padding: 20px 0px;
+}
+
+
+
+.btn.btn-danger{
+  font-size: 20px;
+  padding-bottom: 10px;
+  padding-top: 5px;
+  font-family: "comic sans ms";
+  border-radius: 20px;
+}
+
+.btn:hover{
+  /* color: #ffccd7; */
+  color: rgb(255, 220, 131);
+  border-color: #00000000;
+  background-color: #000000;
+}
+
+.btn.btn-dark{
+  padding: 10px 10px;
+  border-radius: 15px;
+  font-size: 17px;
+}
+
+.btn.btn-info{
+  border-color: #f6d46500;
+  font-size: 17px;
+  padding: 10px 10px;
+  /* background-image: linear-gradient(to right, #f6d365 0%, #fda085 51%, #f6d365 100%); */
+  /* background-image: linear-gradient(to right, #ffcf30 0%, #ff7a55 51%, #ffd139 100%); */
+  border-radius: 15px;
+  background-image: linear-gradient(to right, #ff7a55 0%, #ffcf30 51%, #ff7a55 100%);
+}
+
+.btn-info:hover {
+  flex: 1 1 auto;
+  /* margin: 10px; */
+  /* padding: 30px; */
+  text-align: center;
+  /* text-transform: uppercase; */
+  transition: 0.3s;
+  background-size: 200% auto;
+  color: rgb(255, 255, 255);
+  box-shadow: 0 0 20px #eee;
+  /* border-radius: 20px; */
+
+  background-position: right center;
+  border-color: #f6d46500;
+} 
+
